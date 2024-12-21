@@ -1,0 +1,183 @@
+*{
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+        background: url(pexels-ali-mansour-1875482084-29178689.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+.wraper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh ;
+    /* background: rgba(39, 39, 39, 0.4); */
+    
+}
+.nav{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background: linear-gradient(rgb(195, 195, 190),transparent);
+    z-index: 100;
+}
+.nav-logo p{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+.nav-menu ul{
+    display: flex;
+}
+.nav-menu ul li{
+    list-style: none;
+}
+.nav-menu ul li .link{
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 15px;
+    margin: 0 25px;
+}
+.link:hover, .active{
+    border-bottom: 2px solid #fff;
+}
+.nav-button .btn{
+    width: 130px;
+    height: 40px;
+    font-weight: 500;
+    /* background:rgb(195, 195, 190); */
+    background: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s ease;
+    font-size: 16px;
+    color: #01315d;
+    transition: .3s;
+
+}
+.nav-button .btn:hover{
+    background: #dedbdb;
+    
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 50vh; */
+    /* margin-left: 50%; */
+    margin-top: -480px;
+
+}
+.login-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 440px;
+    height: 480px;
+    padding: 30px;
+}
+.login-header{
+    text-align: center;
+    margin: 20px 0 40px 0;
+    /* margin-top: 100%; */
+}
+.login-header header.a{
+    color:#fff ;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: -30px;
+    font-family: 'Arial';
+}
+.login-box .input-field{
+    width: 100%;
+    height: 60px;
+    font-size: 17px;
+    padding: 0 25px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 5px 10px 1px rgb(255, 255, 20);
+    transition: .3s;
+}
+::placeholder{
+    font-weight: 500;
+    color: #222;
+    /* font-family: 'Arial'; */
+}
+.input-field:focus{
+    width: 105%;
+    
+}
+.forgot{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+section{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+
+}
+#check{
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+section a{
+    color:#fff;
+}
+.input-submit{
+    position: relative;
+}
+.submit-btn{
+    width: 100%;
+    height: 60px;
+    background: rgb(249, 249, 80);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+.input-submit label{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    color: #222;
+    transform: translate(-50%, -50%);
+    -webkit-transform:translate(-50%, -50%) ;
+    -ms-transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.submit-btn:hover{
+    background: rgb(245, 245, 18);
+    transform: scale(1.05,1);
+ 
+}
+.sign-up-link{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+    color: #fff;
+}
+.sign-up-link a{
+    color: blanchedalmond;
+    font-weight: 600;
+    margin-left: 4px;
+}
+

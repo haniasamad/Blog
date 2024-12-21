@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="first.css">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <div class="wraper">
+        <nav class="nav">
+            <div class="nav-logo">
+                <p>LOGO .</p>
+            </div>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="#" class="link active">Home</a></li>
+                    <li><a href="#" class="link">Blog</a></li>
+                    <li><a href="#" class="link">Services</a></li>
+                    <li><a href="#" class="link">About</a></li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="btn" id="loginBtn">Sign In</button>
+                <a href="signup.html"><button class="btn" id="registerBtn">Sign Up</button></a>
+            </div>
+        </nav>
+    </div>
+    <header>
+        <div class="login-box">
+            <div class="login-header">
+                <header class="a">Create Your Account</header>
+            </div>
+            <div class="input-box">
+                <input id="Email" type="text" class="input-field" placeholder="Email" autocomplete="off" required>
+            </div>
+            <div class="input-box">
+                <input id="password" type="password" class="input-field" placeholder="Password" autocomplete="off"
+                    required>
+            </div>
+            <div class="forgot">
+                <section>
+                    <input type="checkbox" id="check">
+                    <label for="check">Remember me</label>
+                </section>
+                <section>
+                    <a href="#">Forgot password</a>
+                </section>
+            </div>
+            <div class="input-submit">
+                <div class="input-box">
+                    <button onclick="signIn()" class="submit-btn" id="submit"></button>
+                    <label for="">Sign In</label>
+                </div>
+                <div class="sign-up-link">
+                    <p>Don't have account ? <a href="#">Sign Up</a></p>
+                </div>
+            </div>
+    </header>
+    <script src="script.js" type="module"></script>
+</body>
+
+</html>
